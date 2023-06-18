@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * Main - entry of the function that prints all possible combinations
+ * main - entry point of the function that prints all possible combinations
  * Return: always 0
  */
 int main(void)
@@ -10,8 +10,12 @@ int main(void)
 	for (n = 48; n < 58; n++)
 	{
 		putchar(n);
-		putchar(',');
-		putchar(' ');
+		if (n != 57)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
+	putchar('\n');
 	return (0);
 }
