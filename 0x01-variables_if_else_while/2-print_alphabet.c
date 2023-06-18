@@ -1,5 +1,6 @@
 #include <stdio.h>
-/** Main - entry point to print alphabets
+/**
+* main - entry point of the function to  print alphabets
 * Return: always 0
 */
 int main(void)
@@ -10,7 +11,7 @@ int main(void)
 	for (; n <= 'z'; n++)
 	{
 		putchar(n);
-		putchar('\n');
 	}
+	putchar('\n');
 	return (0);
 }
