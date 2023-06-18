@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
-/*main - entry point
-*Return: 0 always
+/*
+* main - entry point of the function that computres last value.
+* Return: 0 always
 */
 int main(void)
 {
