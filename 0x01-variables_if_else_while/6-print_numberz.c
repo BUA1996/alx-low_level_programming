@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* Main - function that prints out numbers of base 10
+* main - entry point of the function that prints out numbers of base 10
 * Return: always 0
 */
 int main(void)
@@ -10,7 +10,7 @@ int main(void)
 	for (n = 48; n < 58; n++)
 	{
 		putchar(n);
-		putchar('\n');
 	}
+	putchar('\n');
 	return (0);
 }
