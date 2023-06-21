@@ -9,10 +9,11 @@ int main(void)
 
 	for (p = 0; p < 1024; p++)
 	{
-		if ((p % 3) == 0)
+		if ((p % 3) == 0 || (p % 5) == 0)
+		{
 			sum += p;
-		else if ((p % 5) == 0)
-			sum += p;
+		}
 	}
 	printf("%d\n", sum);
+	return (0);
 }
