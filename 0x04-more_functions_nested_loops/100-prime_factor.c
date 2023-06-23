@@ -3,7 +3,7 @@
 
 /**
  * main - entry point of the function
- * Return; always 0
+ * Return: always 0
  */
 int main(void)
 {
@@ -16,7 +16,7 @@ int main(void)
 	while (p % 2 == 0)
 	{
 		max = 2;
-		p /= 2;;
+		p /= 2;
 	}
 
 	for (q = 3; q <= sqrt(p); q = q + 2)
