@@ -1,1 +1,1 @@
-s directory contains solutions for more linked list task.
+This directory contains solutions for more linked list task.
