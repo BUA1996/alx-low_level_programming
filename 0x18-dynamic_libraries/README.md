@@ -1,0 +1,2 @@
+Dynamic libraries, also known as shared libraries, are files containing code and data that multiple programs can use simultaneously. They are a fundamental part of the modern software development and execution process. Dynamic libraries offer several advantages over static libraries, including efficient use of system resources and easier updates.
+This project covers the concepts of creating and using dynamic libraries in Linux systems, with the .so
